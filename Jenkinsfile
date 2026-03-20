@@ -14,7 +14,7 @@ pipeline {
 
 					steps {
 
-							echo "Hello from node1"
+							echo "Hello from node1, test1"
 						}
 			}
 		
