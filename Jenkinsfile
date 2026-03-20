@@ -5,7 +5,6 @@ pipeline {
 				label {
 
 						label "node1"
-						customWorkspace "/mnt/project"
 				}	
 	}
 
@@ -13,9 +12,9 @@ pipeline {
 		stage ("test") {
 
 					steps {
-
-							echo "Hello from node1, test1"
-						}
+                       
+						echo "hello from node1"
+					}
 			}
 		
 		}
