@@ -5,6 +5,7 @@ pipeline {
 				label {
 
 						label "node1"
+					    customWorkspace "/mnt/project"
 				}	
 	}
 
@@ -12,7 +13,7 @@ pipeline {
 		stage ("test") {
 
 					steps {
-                       
+                        sh "sudo chmod -R 777 /mnt"
 						echo "hello from node1"
 					}
 			}
