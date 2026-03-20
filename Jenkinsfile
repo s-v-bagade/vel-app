@@ -5,7 +5,7 @@ pipeline {
 				label {
 
 						label "built-in"
-						customWorkspace "/mnt/vel-app-1"
+						customWorkspace "/mnt/project"
 				}	
 	}
 
